@@ -1,0 +1,67 @@
+body.index {
+  background-image: url('images/voorpagina.png');
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  /* Remove default margin for the body */
+  padding: 0;
+  /* Remove default padding for the body */
+  height: 100vh;
+  /* Make sure the body takes the full viewport height */
+}
+
+body .nav-link {
+  color: black
+}
+
+.nav-link.active {
+  color: gray;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+.btn {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.btn:hover {
+  background-color: darkgray;
+  border-color: darkgray;
+  color: white;
+}
+
+btn:active {
+  background-color: gray;
+  border-color: gray;
+  color: gray;
+}
+
+body.contact {
+  background-image: url('images/10.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  /* Remove default margin for the body */
+  padding: 0;
+  /* Remove default padding for the body */
+  height: 100vh;
+  /* Make sure the body takes the full viewport height */
+}
+
+
+.body {
+  align-items-center
+}
+
+.small-hr {
+  height: 1px;
+  /* Pas de hoogte aan */
+  margin: 0 auto;
+  /* Pas de marges aan */
+  width: 50%;
+}

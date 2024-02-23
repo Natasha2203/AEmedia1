@@ -1,5 +1,5 @@
 body.index {
-  background-image: url('images/voorpagina.png');
+  background-image: url('voorpagina.png');
   background-position: center;
   background-size: cover;
   margin: 0;
@@ -41,7 +41,7 @@ btn:active {
 }
 
 body.contact {
-  background-image: url('images/10.png');
+  background-image: url('10.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
